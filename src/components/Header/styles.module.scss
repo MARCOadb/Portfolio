@@ -4,6 +4,9 @@
     align-items: center;
     justify-content: center;
     height: 65px;
+    position: fixed;
+    z-index: 900;
+    top: 0;
 }
 
 .header {
@@ -28,6 +31,7 @@
 
         span {
             font-weight: 500;
+            position: relative;
         }
     }
 }
